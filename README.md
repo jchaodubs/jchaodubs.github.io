@@ -1,6 +1,6 @@
 
 
-# <a href="https://people.umass.edu/avsingh" target="_blank">My Portfolio Website</a>
+# <a href="https://jchaodubs.github.io/" target="_blank">My Portfolio Website</a>
 
 This portfolio was made with HTML/CSS and JS. It serves as a site to showcase my projects, resume, and social accounts. It was generated used Jekyll and Sass and I used the particle.js theme.
 <br/>
