@@ -2022,6 +2022,10 @@ template {
 .fa-yahoo:before {
     content: "\f19e"
 }
+.flutter{
+    height:70px;
+    width:70px;
+}
 
 .fa-google:before {
     content: "\f1a0"
