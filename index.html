@@ -11,6 +11,9 @@
     <meta name="description" content="Portfolio Website" />
     <!-- Author Metadata -->
     <meta name="author" content="Jeffrey Chao" />
+   
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  
     <!-- Keyword Metadata -->
     <meta
       name="keywords"
@@ -49,6 +52,7 @@
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="timeline.html" >Timeline</a>
         </div>
       </div>
       <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -92,8 +96,8 @@
         <div class="tech">
           <h2>Languages</h2>
           <i class="devicon-python-plain colored"></i>
-          <i class="devicon-java-plain-wordmark colored"></i>
           <img class="flutter" src="https://icongr.am/devicon/c-original.svg?size=128&color=currentColor"/>
+          <i class="devicon-javascript-plain colored"></i>
           <p>My favored languages for programming, software engineering, <br>and data analysis.</p>
         </div>
 
@@ -102,13 +106,20 @@
           <h2>Front-End</h2>
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
-          <img class= "flutter"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
-          <i class="devicon-javascript-plain colored"></i>
+          <img style="width:4rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+          <i class="devicon-react-original colored"></i>
           <p>My preferred technologies for front-end web development.</p>
         </div>
 
         <!-- Technology Stack #3: Back-End -->
-          <!--None currently-->
+        <div class="tech">
+          <h2>Backend</h2>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" style="width:4rem"/>
+          
+          <i class="devicon-prisma-original-wordmark colored"></i>
+          <i class="devicon-postman-plain colored"></i>
+          <p>My preferred technologies for backend development.</p>
+        </div>
 
         <!-- Technology Stack #4: Tools -->
         <div class="tech">
@@ -128,11 +139,59 @@
         <h1>Featured Projects</h1>
       </div>
 
-
-      <!-- User Project #1: InTrade -->
+      <!-- User Project #1: SlugAlert-->
 
       <div class="user-projects">
         <div class="images-left">
+          <picture>
+            <img alt="slugalert" src="./assets/img/jpg/slugalert.png" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>SlugAlert</h3>
+          
+         
+          <img height="32"
+          width="32"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+          
+          <img height="32"
+          width="32"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+          <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            />
+            
+            <img height="32"
+            width="32"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" />
+          
+            <img height="32"
+            width="32"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" />
+          
+          
+          
+          <p style="text-align: center">
+            I created a web app for UCSC students to share reports 
+            to each other through a map interface. I built this full-stack 
+            application on Nextjs and am hosting it on Vercel. I use technologies such as
+            React, Javascript, Postgres, Prisma, NextAuth, and Google Maps API and currently
+            50+ users use my app.
+
+          </p>
+          <a class="project-link" target="_blank" href="https://slugalert.com"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+      <!-- User Project #2: InTrade -->
+
+      <div class="user-projects">
+        <div class="images-right">
           <picture>
             <source type="image/webp" srcset="./assets/img/webp/intrade.webp" alt="intrade1" />
             <img alt="intrade" src="./assets/img/jpg/intrade.jpg" />
@@ -157,7 +216,7 @@
             width="32"
             src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg"
           />
-          <p style="text-align: justify">
+          <p style="text-align: left">
             I developed a stock chatbot assistant which allows users to get up to date stock prices. User
              functionalities include calculating the 
              <a href="https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/ema#:~:text=Exponential%20Moving%20Average%20(EMA)%20is,data%20that%20is%20more%20current.">EMA's</a>,
@@ -171,41 +230,7 @@
           >
         </div>
       </div>
-      <!-- User Project #2: On A Budget-->
 
-      <div class="user-projects">
-        <div class="images-right">
-          <picture>
-            <source type="image/webp" srcset="./assets/img/webp/budget.webp" alt="Budget Image" />
-            <img alt="Personal Website" src="./assets/img/jpg/budget.jpg" />
-          </picture>
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>On A Budget</h3>
-          <img
-            height="32"
-            width="32"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
-            />
-          &nbsp;
-          <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg"
-          />
-          <p style="text-align: left">
-            I collaborated with <a href="https://gdsc.community.dev/university-of-california-santa-cruz/">DSCUCSC</a> 
-            members to create a budgeting app for students in Santa Cruz, empowering them 
-            to find budget-friendly events and track their expenses. Utilizing Flutter, 
-            I constructed the event searches page, and integrated a Flask server 
-            display data retrieved from EventBrite's API
-
-          </p>
-          <a class="project-link" target="_blank" href="https://github.com/On-A-Budget"
-            >Check it out!</a
-          >
-        </div>
-      </div>
 
       <!--User #3 resume project-->
       <div class="user-projects">
