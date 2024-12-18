@@ -14,6 +14,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #555;
+    background-color: #f2f3f4;
     font-family: 'Nunito Sans', sans-serif
 }
 
@@ -2022,9 +2023,10 @@ template {
 .fa-yahoo:before {
     content: "\f19e"
 }
-.flutter{
-    height:70px;
-    width:70px;
+
+.flutter {
+    height: 70px;
+    width: 70px;
 }
 
 .fa-google:before {
@@ -4825,8 +4827,8 @@ a img {
 }
 
 #particles-js {
-    
-    background:#28282B
+
+    background: #28282B
 }
 
 #particles-js .particles-js-canvas-el {
@@ -4978,13 +4980,20 @@ a img {
     margin: 10px
 }
 
+.pfp {
+    width: 12rem;
+    border-radius: 50%;
+}
+
+
+
 .user {
     text-align: center;
     font-size: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .user p {
@@ -5038,7 +5047,7 @@ a img {
 }
 
 .user-projects p {
-    margin-right: 5px
+    margin-right: 0rem;
 }
 
 @media only screen and (min-width:550px) {
@@ -5049,7 +5058,8 @@ a img {
 
     .contents,
     .contents-right {
-        margin-top: -5%
+        margin-top: -5%;
+
     }
 
     .contents-right,
@@ -5058,12 +5068,27 @@ a img {
         width: 48%
     }
 
+    .contents,
+    .contents-left {
+        margin-top: -5%;
+        margin-right: 2.1rem;
+
+    }
+
+    .contents-left,
+    .images-right {
+        float: right;
+        width: 48%
+    }
+
+
     .images-right img {
         float: right
     }
 
     .images-left {
         float: left;
+
         width: 48%
     }
 
@@ -5116,4 +5141,3 @@ a img {
     margin: 0;
     color: #fff
 }
-
