@@ -1,10 +1,11 @@
-
 .text-container {
-  width: 100%;
   max-width: 700px;
   margin: 0 auto;
+  padding: 2rem 1.25rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
 }
 
-        p {
-  display: block;
+h1 {
+  text-align: center;
 }
